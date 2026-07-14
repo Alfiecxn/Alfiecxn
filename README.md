@@ -86,7 +86,7 @@ flowchart LR
 
 </details>
 
-<div align="center">────────────────────</div>
+<div align="left">────────────────────</div>
 
 <details>
 <summary><b>🎞 Determinism — the audit trail and the program are the same object</b></summary>
@@ -100,7 +100,7 @@ flowchart LR
 
 </details>
 
-<div align="center">────────────────────</div>
+<div align="left">────────────────────</div>
 
 <details>
 <summary><b>🧩 Architecture — four surfaces, one contract</b></summary>
@@ -120,7 +120,8 @@ Verified by one gate: `pnpm verify` → typecheck · tests · lint · secrets-gr
 
 ---
 
-> **📝 Note** — ORRERY’s source is private. Shown here at the top level — architecture, guarantees, and capabilities — with no implementation exposed. Walkthrough or gated access available on request.
+> [!NOTE]
+> ORRERY’s source is private. Shown here at the top level — architecture, guarantees, and capabilities — with no implementation exposed. Walkthrough or gated access available on request.
 
 ---
 
