@@ -81,7 +81,7 @@
   <g transform="translate(560 0)">
     <text x="0" y="132" fill="#f4f7ff" font-size="60" font-weight="700" letter-spacing="1.5">Alfie Coxon</text>
     <rect x="3" y="152" width="66" height="4" rx="2" fill="url(#accent)"/>
-    <text x="0" y="192" fill="#7fe9d6" font-size="27" font-weight="600" letter-spacing="0.4">Governed multi-agent AI systems</text>
+    <text x="0" y="192" fill="#f43f5e" font-size="27" font-weight="600" letter-spacing="0.4">Governed multi-agent AI systems</text>
     <text x="0" y="228" fill="#93a4d8" font-size="17" font-weight="400" letter-spacing="3.2">ORCHESTRATE · ROUTE · RUN · WATCH · VERIFY</text>
   </g>
 </svg>
