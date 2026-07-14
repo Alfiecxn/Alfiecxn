@@ -86,7 +86,7 @@ flowchart LR
 
 </details>
 
-<div align="left">────────────────────</div>
+---
 
 <details>
 <summary><b>🎞 Determinism — the audit trail and the program are the same object</b></summary>
@@ -100,7 +100,7 @@ flowchart LR
 
 </details>
 
-<div align="left">────────────────────</div>
+---
 
 <details>
 <summary><b>🧩 Architecture — four surfaces, one contract</b></summary>
