@@ -72,44 +72,55 @@ flowchart LR
     classDef host fill:#191f2e,stroke:#4a5578,color:#c3cbe0,stroke-width:1px
 ```
 
-<table width="100%"><tr><td>
-<details><summary><b>🛡 Governance — where autonomy ends, on purpose</b></summary><br/>
-<ul>
-<li><b>Sacred gate</b> — destructive actions park for a human; no model can talk its way past it.</li>
-<li><b>Hard budgets</b> — token/step ceilings <b>block on breach</b> instead of silently truncating.</li>
-<li><b>Capability is never inferred</b> — tool authority comes only from an explicit granted allowlist, carried by least-privilege spawn envelopes through a five-plane permission gate.</li>
-<li><b>Encrypted vault</b> — provider keys live under Argon2id + SQLCipher, decrypt just-in-time, and never touch disk in plaintext.</li>
-</ul>
-</details>
-</td></tr></table>
+---
 
-<table width="100%"><tr><td>
-<details><summary><b>🎞 Determinism — the audit trail and the program are the same object</b></summary><br/>
-<ul>
-<li><b>Append-only spine, single per-run writer</b> — every effect is an event.</li>
-<li><b>Pure projections</b> — every view is a fold over the event bus; <b>no wall-clock or RNG</b> in anything a reducer sees.</li>
-<li><b>Replay is byte-identical</b> — re-run any log and get the exact same state, every time.</li>
-<li><b>Rust ↔ TypeScript hash parity</b> — the <code>Event</code> schema is byte-for-byte identical across the host and the engine.</li>
-</ul>
-</details>
-</td></tr></table>
+<details>
+<summary><b>🛡 Governance — where autonomy ends, on purpose</b></summary>
 
-<table width="100%"><tr><td>
-<details><summary><b>🧩 Architecture — four surfaces, one contract</b></summary><br/>
-<table>
-<tr><th>Surface</th><th>Role</th></tr>
-<tr><td><code>src-tauri/</code> + <code>crates/</code></td><td>Tauri / Rust host shell + the encrypted credential vault</td></tr>
-<tr><td><code>sidecar/</code></td><td>TypeScript orchestration engine: event spine, Ultracode pipeline, model gateway, governance, budgets, tool suite, shared memory</td></tr>
-<tr><td><code>frontend/</code></td><td>React / WebGL <i>mission-control</i> workbench — a pure projection consumer; mutates state only via <code>POST /command</code></td></tr>
-<tr><td><code>packages/</code></td><td>the shared <code>Event</code> schema — the spine contract, byte-parity across Rust and TS</td></tr>
-</table>
-<sub>Verified by one gate: <code>pnpm verify</code> → typecheck · tests · lint · secrets-grep · Rust↔TS parity · replay-determinism.</sub>
-</details>
-</td></tr></table>
+<br/>
 
-<table width="100%"><tr><td>
-<b>📝 Note</b> — ORRERY’s source is private. Shown here at the top level — architecture, guarantees, and capabilities — with no implementation exposed. Walkthrough or gated access available on request.
-</td></tr></table>
+- **Sacred gate** — destructive actions park for a human; no model can talk its way past it.
+- **Hard budgets** — token/step ceilings **block on breach** instead of silently truncating.
+- **Capability is never inferred** — tool authority comes only from an explicit granted allowlist, carried by least-privilege spawn envelopes through a five-plane permission gate.
+- **Encrypted vault** — provider keys live under Argon2id + SQLCipher, decrypt just-in-time, and never touch disk in plaintext.
+
+</details>
+
+<div align="center">────────────────────</div>
+
+<details>
+<summary><b>🎞 Determinism — the audit trail and the program are the same object</b></summary>
+
+<br/>
+
+- **Append-only spine, single per-run writer** — every effect is an event.
+- **Pure projections** — every view is a fold over the event bus; **no wall-clock or RNG** in anything a reducer sees.
+- **Replay is byte-identical** — re-run any log and get the exact same state, every time.
+- **Rust ↔ TypeScript hash parity** — the `Event` schema is byte-for-byte identical across the host and the engine.
+
+</details>
+
+<div align="center">────────────────────</div>
+
+<details>
+<summary><b>🧩 Architecture — four surfaces, one contract</b></summary>
+
+<br/>
+
+| Surface | Role |
+|---|---|
+| `src-tauri/` + `crates/` | Tauri / Rust host shell + the encrypted credential vault |
+| `sidecar/` | TypeScript orchestration engine: event spine, Ultracode pipeline, model gateway, governance, budgets, tool suite, shared memory |
+| `frontend/` | React / WebGL *mission-control* workbench — a pure projection consumer; mutates state only via `POST /command` |
+| `packages/` | the shared `Event` schema — the spine contract, byte-parity across Rust and TS |
+
+Verified by one gate: `pnpm verify` → typecheck · tests · lint · secrets-grep · Rust↔TS parity · replay-determinism.
+
+</details>
+
+---
+
+> **📝 Note** — ORRERY’s source is private. Shown here at the top level — architecture, guarantees, and capabilities — with no implementation exposed. Walkthrough or gated access available on request.
 
 ---
 
