@@ -28,10 +28,11 @@ Written briefs · hostile critique loops · hard human gates · autonomy made sa
 
 <div align="center">
 
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=for-the-badge&logo=tauri&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+
 ![CI](https://img.shields.io/badge/CI-six--gate_verify-2ea043?style=flat-square)
 ![Determinism](https://img.shields.io/badge/replay-byte--identical-6aa6ff?style=flat-square)
 ![Status](https://img.shields.io/badge/private_repo-source_gated-8a8f9c?style=flat-square)
@@ -112,10 +113,10 @@ Autonomy made safe by construction, across a portfolio of live and study systems
 
 | Project | What it is |
 |---|---|
-| **Autonomous content engines** | 4 self-running publishing engines (~50 crons) behind a hard publish gate |
-| **Bookings-recovery system** | turns missed enquiries into recovered revenue, end-to-end |
-| **Assistant SaaS** | a hosted AI assistant product |
-| **Pattern studies** | two focused deep-dives into agentic patterns |
+| **[TutorHQ](https://tutorhq.co.uk)** | A human-gated bookings-recovery and client-onboarding system for a tutoring business on TutorBird — recovers revenue lost to mid-block cancellations, and never books without a human confirm. Specific client onboarding; currently in private use with one main client company. |
+| **Autonomous content engines** | Four self-running SEO / content engines (~50 scheduled jobs) that research, draft, and publish — every publish held behind a hard human gate. |
+| **Assistant SaaS** | A hosted AI assistant product, built to the same launch-gated, human-in-the-loop standard. |
+| **Pattern studies** | Two focused deep-dives into agentic architecture — small, sharp reference builds. |
 
 <sub>Most are private or gated. Details and demos available on request.</sub>
 
