@@ -107,8 +107,9 @@ flowchart LR
 </details>
 </td></tr></table>
 
-> [!NOTE]
-> ORRERY’s source is private. Shown here at the top level — architecture, guarantees, and capabilities — with no implementation exposed. Walkthrough or gated access available on request.
+<table width="100%"><tr><td>
+<b>📝 Note</b> — ORRERY’s source is private. Shown here at the top level — architecture, guarantees, and capabilities — with no implementation exposed. Walkthrough or gated access available on request.
+</td></tr></table>
 
 ---
 
