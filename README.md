@@ -113,17 +113,7 @@ A few of them, mostly private or gated:
 | **AI email assistant (SaaS)** | A hosted assistant product — accounts, billing, and the agent pipeline behind it — built to the same secrets-hardened, human-in-the-loop, launch-gated standard as everything else. |
 | **Pattern studies** | Two small, sharp reference builds, each isolating one hard agentic problem (e.g. a deterministic cost/usage ledger) and solving just that — legible proofs of a pattern. |
 
-<sub>Most are private or gated.</sub>
-
-**Walkthroughs & demos available on request** — copy my email:
-
-<table><tr><td width="270">
-
-```
-a@alfie.cx
-```
-
-</td></tr></table>
+<sub>Most are private or gated — walkthroughs & demos available on request.</sub>
 
 ---
 
