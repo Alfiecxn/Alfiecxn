@@ -32,7 +32,7 @@ Written briefs · hostile critique loops · hard human gates · autonomy made sa
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Tests](https://img.shields.io/badge/tests-1%2C000%2B-2ea043?style=flat-square)
+![CI](https://img.shields.io/badge/CI-six--gate_verify-2ea043?style=flat-square)
 ![Determinism](https://img.shields.io/badge/replay-byte--identical-6aa6ff?style=flat-square)
 ![Status](https://img.shields.io/badge/private_repo-source_gated-8a8f9c?style=flat-square)
 
@@ -126,7 +126,7 @@ Autonomy made safe by construction, across a portfolio of live and study systems
 - **Briefs before code** — every build starts from a written mission + invariants.
 - **Hostile critique loops** — findings are adversarially verified before they’re trusted.
 - **Human gates everywhere** — zero unattended commits; destructive actions always stop for a person.
-- **Proof, not vibes** — 1,000+ tests, deterministic replay, and a single CI gate that must pass.
+- **Proof, not vibes** — a six-gate CI (types · tests · lint · secrets-grep · Rust↔TS parity · replay-determinism) that must pass, and byte-identical determinism.
 
 ---
 
