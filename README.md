@@ -42,24 +42,34 @@ Written briefs · hostile critique loops · hard human gates · autonomy made sa
 **The top-level run** — a request flows left-to-right, orchestrated across model tiers, fenced by governance, recorded on one event spine, and watched live in the workbench:
 
 ```mermaid
+%%{init: {'theme':'dark','themeVariables':{'fontFamily':'Segoe UI, Helvetica, Arial, sans-serif','fontSize':'14px','lineColor':'#7f9cff'}}}%%
 flowchart LR
-    U(["Plain-English<br/>request"]) --> PIPE
-    subgraph SIDE["Sidecar — TypeScript orchestration engine"]
+    U(["Plain-English<br/>request"]):::entry --> PIPE
+    subgraph SIDE["Sidecar · orchestration engine"]
       direction TB
-      PIPE["Ultracode pipeline<br/>triage · clarify · spec · route<br/>plan · execute · verify · handoff"]
-      GATE["Model gateway<br/>Fable-5 plan · Opus exec · fleets"]
+      PIPE("Ultracode pipeline<br/>triage · clarify · spec · route<br/>plan · execute · verify · handoff"):::pipe
+      GATE("Model gateway<br/>Fable-5 plan · Opus exec · fleets"):::gate
       PIPE <--> GATE
     end
-    subgraph GOV["Governance — safe by construction"]
+    subgraph GOV["Governance · safe by construction"]
       direction TB
-      SG["Sacred gate<br/>un-overridable human approval"]
-      BD["Hard budget ceilings"]
-      VA["Encrypted vault<br/>Argon2id + SQLCipher · JIT decrypt"]
+      SG("Sacred gate<br/>un-overridable human approval"):::gov
+      BD("Hard budget ceilings"):::gov
+      VA("Encrypted vault<br/>Argon2id + SQLCipher · JIT"):::gov
     end
     PIPE --> GOV
-    SIDE -- "every effect is an event" --> SPINE[("Append-only event spine<br/>deterministic · replayable byte-for-byte")]
-    SPINE --> UI["Mission-control workbench<br/>pure projection · live + replay"]
-    HOST["Tauri / Rust host shell"] -.-> SIDE
+    SIDE -- "every effect is an event" --> SPINE[("Append-only event spine<br/>replayable byte-for-byte")]:::spine
+    SPINE --> UI("Mission-control workbench<br/>pure projection · live + replay"):::ui
+    HOST("Tauri / Rust host shell"):::host -.-> SIDE
+    style SIDE fill:#0d1836,stroke:#3a4a86,color:#cdd7f5
+    style GOV fill:#2a1c0e,stroke:#8a6a2a,color:#ffe4b8
+    classDef entry fill:#1f2544,stroke:#8fb0ff,color:#e7edff,stroke-width:1.5px
+    classDef pipe fill:#0f3a44,stroke:#38e1c4,color:#eafffb,stroke-width:1.5px
+    classDef gate fill:#172f5e,stroke:#6aa6ff,color:#e7edff,stroke-width:1.5px
+    classDef gov fill:#3a2614,stroke:#f6b64a,color:#ffe9c7,stroke-width:1.5px
+    classDef spine fill:#10302b,stroke:#28d3b4,color:#d6fff5,stroke-width:1.5px
+    classDef ui fill:#241a3d,stroke:#a78bfa,color:#efe8ff,stroke-width:1.5px
+    classDef host fill:#191f2e,stroke:#4a5578,color:#c3cbe0,stroke-width:1px
 ```
 
 <details>
@@ -152,7 +162,7 @@ Autonomy made safe by construction, across a portfolio of live and study systems
 
 ### Reach me
 
-[![Email](https://img.shields.io/badge/email-a@alfie.cx-38e1c4?style=for-the-badge&logo=maildotru&logoColor=white&labelColor=0e1430)](mailto:a@alfie.cx)
+[![Email](https://img.shields.io/badge/email-a@alfie.cx-f43f5e?style=for-the-badge&logo=maildotru&logoColor=white&labelColor=0e1430)](mailto:a@alfie.cx)
 [![GitHub](https://img.shields.io/badge/github-Alfiecxn-6aa6ff?style=for-the-badge&logo=github&logoColor=white&labelColor=0e1430)](https://github.com/Alfiecxn)
 
 <sub>Portfolio is PIN-gated — happy to share on request.</sub>
