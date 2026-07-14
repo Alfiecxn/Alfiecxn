@@ -115,11 +115,15 @@ A few of them, mostly private or gated:
 
 <sub>Most are private or gated.</sub>
 
-**Walkthroughs & demos available on request** — copy my email (hover the box, click the ⧉):
+**Walkthroughs & demos available on request** — copy my email:
+
+<table><tr><td>
 
 ```
 a@alfie.cx
 ```
+
+</td></tr></table>
 
 ---
 
