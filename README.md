@@ -119,7 +119,7 @@ Autonomy made safe by construction, across a portfolio of live and study systems
 
 | Project | What it is |
 |---|---|
-| **[TutorHQ](https://tutorhq.co.uk)** | A human-gated bookings-recovery and client-onboarding system for a tutoring business on TutorBird — recovers revenue lost to mid-block cancellations, and never books without a human confirm. Specific client onboarding; currently in private use with one main client company. |
+| **[TutorHQ](https://tutorhq.co.uk)** | A governed automation layer that **wraps TutorBird** (the tutoring-business platform it runs on) — a read-only mirror and scheduling brain that recovers revenue lost to mid-block cancellations, and never books on its own: because TutorBird has no write API, every action commits back through TutorBird’s own safe channels (a customer self-book link or a staff action). Specific client onboarding; currently in private use with one main client company. |
 | **Autonomous content engines** | Four self-running SEO / content engines (~50 scheduled jobs) that research, draft, and publish — every publish held behind a hard human gate. |
 | **Assistant SaaS** | A hosted AI assistant product, built to the same launch-gated, human-in-the-loop standard. |
 | **Pattern studies** | Two focused deep-dives into agentic architecture — small, sharp reference builds. |
