@@ -117,7 +117,7 @@ A few of them, mostly private or gated:
 
 **Walkthroughs & demos available on request** — copy my email:
 
-<table><tr><td>
+<table><tr><td width="270">
 
 ```
 a@alfie.cx
