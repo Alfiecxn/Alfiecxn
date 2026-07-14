@@ -109,11 +109,17 @@ A few of them, mostly private or gated:
 | Project | What it is |
 |---|---|
 | **[TutorHQ](https://tutorhq.co.uk)** | A governed automation layer that **wraps TutorBird** (the tutoring-business platform it runs on) — a read-only mirror and scheduling brain that recovers revenue lost to mid-block cancellations, and never books on its own: because TutorBird has no write API, every action commits back through TutorBird’s own safe channels (a customer self-book link or a staff action). Specific client onboarding; currently in private use with one main client company. |
-| **Autonomous content engines** | Four self-running SEO / content engines (~50 scheduled jobs) that research, draft, and publish — every publish held behind a hard human gate. |
-| **Assistant SaaS** | A hosted AI assistant product, built to the same launch-gated, human-in-the-loop standard. |
-| **Pattern studies** | Two focused deep-dives into agentic architecture — small, sharp reference builds. |
+| **Autonomous content engines** | A fleet of four self-running content engines (~50 scheduled jobs) — they research topics, draft, quality-gate, and publish across niche sites, then track performance and refresh what slips. Every publish is held behind a hard human gate; nothing ships unattended. |
+| **AI email assistant (SaaS)** | A hosted assistant product — accounts, billing, and the agent pipeline behind it — built to the same secrets-hardened, human-in-the-loop, launch-gated standard as everything else. |
+| **Pattern studies** | Two small, sharp reference builds, each isolating one hard agentic problem (e.g. a deterministic cost/usage ledger) and solving just that — legible proofs of a pattern. |
 
-<sub>Most are private or gated. Details and demos available on request.</sub>
+<sub>Most are private or gated.</sub>
+
+**Walkthroughs & demos available on request** — copy my email (hover the box, click the ⧉):
+
+```
+a@alfie.cx
+```
 
 ---
 
