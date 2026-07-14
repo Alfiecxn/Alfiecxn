@@ -10,7 +10,7 @@ Written briefs · hostile critique loops · hard human gates · autonomy made sa
 
 <br/>
 
-![Focus](https://img.shields.io/badge/focus-agentic_systems_%26_AI_safety-38e1c4?style=for-the-badge&labelColor=0e1430)
+![Focus](https://img.shields.io/badge/focus-agentic_systems_%26_AI_safety-f43f5e?style=for-the-badge&labelColor=0e1430)
 ![Approach](https://img.shields.io/badge/approach-governed_autonomy-6aa6ff?style=for-the-badge&labelColor=0e1430)
 
 ![Open to](https://img.shields.io/badge/open_to-AI_software%2C_engineering_%26_research-f6b64a?style=for-the-badge&labelColor=0e1430)
@@ -126,7 +126,9 @@ Verified by one gate: `pnpm verify` → typecheck · tests · lint · secrets-gr
 
 ## What else I build
 
-Autonomy made safe by construction, across a portfolio of live and study systems:
+> **I build automated solutions for businesses — whatever the problem.** My skill is finding *how* a manual, broken, or revenue-leaking workflow can be automated, then engineering the system to run it — and designing the workflow from scratch when one doesn’t exist yet. Every build ships governed and human-gated, so it’s safe to hand a real operation.
+
+A few of them, mostly private or gated:
 
 | Project | What it is |
 |---|---|
