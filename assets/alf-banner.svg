@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="alf.ac">
+  <title>alf.ac</title>
+  <defs>
+    <radialGradient id="sh">
+      <stop offset="0" stop-color="#000" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="cut" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="400">
+      <rect width="1200" height="400" fill="#000"/>
+      <rect x="40" y="31" width="10" height="10" fill="#fff"/>
+      <text x="60" y="41" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" letter-spacing="1.6" text-anchor="start" fill="#fff">ALF.AC</text>
+      <text x="1160" y="41" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="13" font-weight="500" letter-spacing="1.6" text-anchor="end" fill="#fff">INDEX — 06 PUBLIC / 05 RESTRICTED</text>
+      <g transform="translate(0 0)">
+        <ellipse cx="150" cy="236" rx="112" ry="100" fill="#fff"/>
+        <rect x="198" y="136" width="66" height="200" fill="#fff"/>
+        <ellipse cx="142" cy="236" rx="46" ry="42" fill="#000"/>
+        <rect x="292" y="46" width="66" height="290" fill="#fff"/>
+        <path d="M392 336 V146 C392 74 434 46 504 46 H548 V104 H510 C476 104 458 116 458 150 V336 Z" fill="#fff"/>
+        <rect x="362" y="136" width="162" height="50" fill="#fff"/>
+        <text x="566" y="336" font-family="system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="78" font-weight="800" letter-spacing="-2" fill="#fff">.ac</text>
+      </g>
+      <text x="40" y="376" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" letter-spacing="1.6" text-anchor="start" fill="#fff">Independent software. Designed, built and operated by Alfie.</text>
+      <text x="1160" y="376" font-family="ui-monospace, 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace" font-size="14" font-weight="500" letter-spacing="1.6" text-anchor="end" fill="#fff">SELECTED WORK, 2026</text>
+    </mask>
+  </defs>
+  <rect width="1200" height="400" fill="#000"/>
+  <g mask="url(#cut)">
+    <rect width="1200" height="400" fill="#fff"/>
+    <circle cx="260" cy="200" r="420" fill="url(#sh)"><animateTransform attributeName="transform" type="translate" values="0 0; 520 60; 240 -40; 0 0" dur="26s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1;.45 0 .55 1"/></circle>
+    <circle cx="900" cy="220" r="360" fill="url(#sh)"><animateTransform attributeName="transform" type="translate" values="0 0; -480 -50; -200 60; 0 0" dur="31s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1;.45 0 .55 1"/></circle>
+    <circle cx="600" cy="120" r="300" fill="url(#sh)"><animateTransform attributeName="transform" type="translate" values="0 0; -300 120; 260 80; 0 0" dur="37s" repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1;.45 0 .55 1"/></circle>
+  </g>
+</svg>
